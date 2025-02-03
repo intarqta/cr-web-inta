@@ -230,7 +230,7 @@ app.delete('/pausados/:id', authenticateToken, (req, res) => {
 // Arranque del Servidor
 // ---------------------------
 app.listen(port, () => {
-  console.log(`Servidor corriendo en http://cr-web-inta.vercel.app/:${port}`);
+  console.log(`Servidor corriendo en http://localhost/:${port}`);
 });
 
 // api/server.js
