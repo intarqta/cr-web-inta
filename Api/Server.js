@@ -253,9 +253,9 @@ app.use(express.json());
 
 // Usuario de ejemplo. En producción, estos datos deben venir de una base de datos.
 const user = {
-  username: process.env.REACT_APP_usuario,
+  username: "navarro.carlossaul",//process.env.REACT_APP_usuario,
   // La contraseña se hashea utilizando la variable de entorno REACT_APP_password
-  passwordHash: bcrypt.hashSync(process.env.REACT_APP_password, 10)
+  passwordHash: bcrypt.hashSync("CarNav_24", 10) //process.env.REACT_APP_password
 };
 
 // Ruta de login (sin protección)
