@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b63d7ff.css",
+    "main.js": "/static/js/main.b3fd0876.js",
+    "static/js/453.323b35ed.chunk.js": "/static/js/453.323b35ed.chunk.js",
+    "static/media/Logo_INTA.png": "/static/media/Logo_INTA.c97ed7612bb0ff528c73.png",
+    "static/media/cloud_img.svg": "/static/media/cloud_img.c1db04ae073c77701ae6ef65c3067dcd.svg",
+    "index.html": "/index.html",
+    "main.5b63d7ff.css.map": "/static/css/main.5b63d7ff.css.map",
+    "main.b3fd0876.js.map": "/static/js/main.b3fd0876.js.map",
+    "453.323b35ed.chunk.js.map": "/static/js/453.323b35ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b63d7ff.css",
+    "static/js/main.b3fd0876.js"
+  ]
+}
