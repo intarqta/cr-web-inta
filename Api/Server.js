@@ -13,7 +13,7 @@ const JWT_SECRET = process.env.REACT_APP_secre_pass; // Debe estar en una variab
 
 // Habilita CORS para todas las peticiones
 app.use(cors({
-  origin: 'https://localhost:3001/login', // O usa "*" en desarrollo, aunque en producción es mejor ser específico
+  origin: 'https://localhost:3000/login', // O usa "*" en desarrollo, aunque en producción es mejor ser específico
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 204
