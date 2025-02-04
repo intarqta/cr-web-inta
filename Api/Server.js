@@ -12,7 +12,12 @@ const port = process.env.PORT | 3001;
 const JWT_SECRET = process.env.REACT_APP_secre_pass; // Debe estar en una variable de entorno en producción
 
 // Habilita CORS para todas las peticiones
-app.use(cors());
+app.use(cors({
+  origin: 'https://localhost:3001/login', // O usa "*" en desarrollo, aunque en producción es mejor ser específico
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  optionsSuccessStatus: 204
+}));
 
 // Middleware para parsear JSON en las peticiones
 app.use(express.json());
