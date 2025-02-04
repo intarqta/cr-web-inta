@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Table, Button, Modal, Form, Tabs, Tab, Card } from 'react-bootstrap';
+import { Container, Row, Col, Table, Button, Modal, Form, Tabs, Tab } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 

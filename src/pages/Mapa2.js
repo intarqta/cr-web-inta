@@ -3,7 +3,6 @@ import { MapContainer, Marker, Popup, WMSTileLayer, TileLayer } from "react-leaf
 import Modal from '../components/Modal';
 import { Button, ModalHeader, Card } from "react-bootstrap";
 import { ModalTitle, ModalBody } from "react-bootstrap";
-import ReactLeafletGoogleLayer from 'react-leaflet-google-layer';
 import L from 'leaflet';
 import marker from '../IMG/cloud_img.svg';
 

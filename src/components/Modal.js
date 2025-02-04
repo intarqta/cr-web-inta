@@ -1,7 +1,6 @@
 import { Modal, ModalBody, Button, ModalHeader, ModalTitle, ModalFooter, Tabs, Tab, Table } from "react-bootstrap";
 import { AgCharts } from "ag-charts-react";
 import logo from '../IMG/Logo_INTA.png'
-import ExcelExport from '../components/ExportData'
 
 function CustomModal({ show, onClose}) {
     // Evita error al cambiar de estado la variable show
