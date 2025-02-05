@@ -10,7 +10,7 @@ const Login = ({ onLoginSuccess }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/login', { username, password })
+    axios.post('https://cr-web-inta-2ynz.vercel.app/login', { username, password })
       .then(response => {
         const { token } = response.data;
         // Guardar el token en localStorage (o en otro lugar seguro)

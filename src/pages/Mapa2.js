@@ -37,7 +37,7 @@ const MapComp = () => {
 
   // Funciones para cargar datos desde los endpoints con el token en la cabecera
   const loadActivos = () => {
-    fetch('http://localhost:3001/activos', { headers: getAuthHeaders() })
+    fetch('https://cr-web-inta-2ynz.vercel.app/activos', { headers: getAuthHeaders() })
       .then(response => {
         if (!response.ok) {
           throw new Error("Error fetching active pluviometers");
@@ -49,7 +49,7 @@ const MapComp = () => {
   };
 
   const loadPausados = () => {
-    fetch('http://localhost:3001/pausados', { headers: getAuthHeaders() })
+    fetch('https://cr-web-inta-2ynz.vercel.app/pausados', { headers: getAuthHeaders() })
       .then(response => {
         if (!response.ok) {
           throw new Error("Error fetching paused pluviometers");
